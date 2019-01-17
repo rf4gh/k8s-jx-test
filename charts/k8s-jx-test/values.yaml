@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.107.175.139:5000/rf4gh/k8s-jx-test
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: k8s-jx-test
